@@ -1,0 +1,52 @@
+body{
+  background-color: #355BB9;
+}
+
+
+.Title{
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.Content{
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  color: black;
+  margin-top: 2rem;
+}
+
+.containers{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 20px;
+}
+
+.card-image{
+  width: 260px;
+  height:180px;
+  border-radius: 4px;
+  margin-bottom:10px;
+}
+
+.button{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top:20px;
+  margin-left:70px;
+}
+
+.containers div{
+  background-color: white;
+  margin-top: 20px;
+  padding:50px;
+  margin-bottom: 20px;
+  height:250px;
+  width:250px;
+}
